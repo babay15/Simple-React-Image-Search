@@ -1,4 +1,9 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Note
+The search function has a limited request, which is 50 request per hour. If you happen to meet this limitation, you won't be able to do search again.
+To overcome this, you need to wait for an hour, or you can just create your own project in [https://unsplash.com/](https://unsplash.com/) to get your own client ID, and change my Client-ID with your own in the /src/api/unsplash.js
+
+## Catatan
+Fungsi pencarian memiliki batasan permintaan, yang mana adalah 50 permintaan per jam. Jika anda menemui batasan tersebut, anda tidak akan bisa melakukan pencarian lagi. Untuk bisa melakukannya lagi, anda bisa menunggu satu jam, atau anda juga bisa membuat project anda sendiri di [https://unsplash.com/](https://unsplash.com/) untuk mendapatkan client ID anda sendiri, setelah itu anda tinggal mengubah Client-ID saya dengan milik anda pada /src/api/unsplash.js
 
 ## Available Scripts
 
