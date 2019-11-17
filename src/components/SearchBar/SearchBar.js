@@ -40,12 +40,6 @@ export default class SearchBar extends React.Component{
                                 onChange={this.onInputChange} 
                                 onClick={this.onInputClick}
                                 />
-                            <div className="ui animated button" tabIndex="0">
-                                <div className="hidden content">Search</div>
-                                <div className="visible content">
-                                    <i className="search icon"></i>
-                                </div>
-                            </div>
                         </div>
                     </div>             
                 </form>
